@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: 383997292512.dkr.ecr.ap-south-1.amazonaws.com/general:16
+    image: 383997292512.dkr.ecr.ap-south-1.amazonaws.com/general:version
     restart: always
     environment:
     - MONGO_DB_HOSTNAME=mongo
