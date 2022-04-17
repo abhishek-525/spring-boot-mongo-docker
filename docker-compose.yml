@@ -5,8 +5,8 @@ services:
     image: 383997292512.dkr.ecr.ap-south-1.amazonaws.com/general:tag
     environment:
     - MONGO_DB_HOSTNAME=mongo
-    - MONGO_DB_USERNAME=devdb
-    - MONGO_DB_PASSWORD=devdb123
+    - MONGO_DB_USERNAME=abhi
+    - MONGO_DB_PASSWORD=dev@123
     ports:
     - 8080:8080
     depends_on:
@@ -19,8 +19,8 @@ services:
   mongo:
     image: mongo
     environment:
-    - MONGO_INITDB_ROOT_USERNAME=devdb
-    - MONGO_INITDB_ROOT_PASSWORD=devdb123
+    - MONGO_INITDB_ROOT_USERNAME=abhi
+    - MONGO_INITDB_ROOT_PASSWORD=dev@123
     volumes:
     - mongovol:/data/db
     networks:
