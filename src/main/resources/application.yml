@@ -8,7 +8,7 @@ spring:
       username: ${MONGO_DB_USERNAME}
       password: ${MONGO_DB_PASSWORD}
       database: users
-      authentication-database: devdb
+      authentication-database: admin
 
 server:
   port: 8080
