@@ -34,6 +34,8 @@ services:
     - mongovol:/data/db
     networks:
     - network111
+    deploy:
+    replicas: 3
 
 volumes:
   mongovol:
