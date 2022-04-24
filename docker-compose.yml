@@ -35,7 +35,7 @@ services:
     networks:
     - network111
     deploy:
-    replicas: 3
+      replicas: 3
 
 volumes:
   mongovol:
