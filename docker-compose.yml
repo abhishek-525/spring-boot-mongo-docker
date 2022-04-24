@@ -12,7 +12,7 @@ services:
     depends_on:
     - mongo
     networks:
-    - network11
+    - network111
 
 
 
@@ -24,12 +24,12 @@ services:
     volumes:
     - mongovol:/data/db
     networks:
-    - network11
+    - network111
 
 volumes:
   mongovol:
-    external: true
+ 
 
 networks:
-  network11:
+  network111:
     external: true
